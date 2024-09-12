@@ -6,7 +6,7 @@
     <title>Mi Página de Prueba</title>
 </head>
 <body>
-    <h1>Bienvenidos a mi página web de prueba</h1>
-    <p>Este es un sitio web para probar Google Analytics.</p>
+    <h1>Bienvenides a mi página web de prueba</h1>
+    <p>Este es un sitio web para probar G. A.</p>
 </body>
 </html>
