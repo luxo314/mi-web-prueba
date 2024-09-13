@@ -2,28 +2,85 @@
 <html lang="es">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RPJYM9NRL0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPJYM9NRL0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-RPJYM9NRL0');
-</script>
+      gtag('config', 'G-RPJYM9NRL0');
+    </script>
     <style>
     body {
         background: radial-gradient(circle, #5D3FD3, #FF69B4); /* Violeta medio oscuro */
         color: white; /* Cambiar el color del texto a blanco para que sea legible */
+        font-family: Arial, sans-serif;
     }
-</style>
+
+    h2 {
+        color: #FFEB3B; /* Amarillo brillante para destacar los títulos */
+    }
+
+    .section {
+        margin: 40px 0;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco semitransparente */
+        border-radius: 10px;
+    }
+
+    .book-extract {
+        font-style: italic;
+        font-size: 1.2em;
+        color: #00FF00; /* Verde llamativo para el extracto */
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .book-image {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .code-section, .courses-section {
+        text-align: center;
+    }
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página de Prueba</title>
 </head>
 <body>
     <h1>Bienvenidees a mi página web de prueba</h1>
-    <p>Este es un sitio web para probar Google Analytics.</p>
-    <p> <a href="subpagina.html">ir a la subpágina 1</a> </p>
-    <p> <a href="subpagina2.html">ir a la subpágina 2</a> </p>
+
+    <!-- Sección de libros del club de lectura -->
+    <div class="section">
+        <h2>Libros del Club de Lectura</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Twardowski_z_diablem.jpg" alt="Fausto de Goethe" class="book-image">
+        <p><strong>Título:</strong> Fausto</p>
+        <p><strong>Autor:</strong> Johann Wolfgang von Goethe</p>
+        <p class="book-extract">"Soy el espíritu que siempre niega. <br> Y lo hago con pleno derecho, <br> pues todo lo que nace merece ser aniquilado, <br> mejor sería entonces que no naciera."</p>
+    </div>
+
+    <!-- Sección de códigos en Python -->
+    <div class="section code-section">
+        <h2>Mis Códigos en Python</h2>
+        <p>Aquí puedes encontrar algunos de los códigos que he desarrollado en Python.</p>
+        <p> <a href="subpagina.html">Código 1: Análisis de datos en Python</a> </p>
+        <p> <a href="subpagina2.html">Código 2: Modelo econométrico</a> </p>
+    </div>
+
+    <!-- Sección de cursos de economía -->
+    <div class="section courses-section">
+        <h2>Cursos de Economía que He Dictado</h2>
+        <p>Una lista de los cursos de economía que he dictado:</p>
+        <ul>
+            <li>Microeconomía Avanzada</li>
+            <li>Macroeconomía para el Desarrollo</li>
+            <li>Econometría Aplicada</li>
+        </ul>
+    </div>
 </body>
 </html>
